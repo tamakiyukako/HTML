@@ -1,0 +1,97 @@
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrapper{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 50px 50px 50px;
+}
+
+h1{
+  font-size: 40px;
+  color: brown;
+  background-color: wheat;
+  padding: 15px;
+  margin: 10px 0px;
+}
+
+.clear{
+  clear: both;
+}
+
+.content{
+  background-color: whitesmoke;
+  padding: 15px;
+  border: solid 1px #ccc;
+}
+
+img{
+  border: solid 1px #ccc;
+  border-radius: 50%;
+}
+
+a:hover{
+  color: red;
+}
+
+table{
+  border: solid 1px #ccc;
+  padding: 15px;
+  background-color: white;
+}
+
+td{
+  text-align: center;
+}
+
+.header{
+  background-size: cover;
+  background-image: url("./nuno.jpg");
+  color: white;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-family: fantasy;
+  font-weight: bold;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.panel{
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.panel-odd{
+  clear: both;
+  paddng-left: 0px;
+}
+
+.panel-even{
+  padding-right: 0px;
+}
+
+#toTop{
+  position: fixed;
+  width: 14%;
+  background-color: white;
+  border: solid 1px #ccc;
+  z-index: 1;
+  bottom: 0;
+  left: 10px;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+}
+
+#toTop > a{
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
